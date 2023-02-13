@@ -1,3 +1,122 @@
-﻿body
-{
+﻿body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+
+.linkdin {
+    height: 20px;
+    width: 20px;
+}
+
+    .linkdin:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+
+.mail {
+    height: 25px;
+    width: 25px;
+}
+
+    .mail:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ffb03f;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffb03f;
+}
+
+a {
+    font-size: 20px;
+    color: #080808;
+}
+
+
+
+
+ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+li {
+    list-style: circle;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    color: #ffb03f;
+    font-size: 20px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ffb03f;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+.Table1 {
+    border-collapse: collapse;
+    width: 50%;
+    color: black;
+    background-color: #ffb03f;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.Table2 {
+    border-collapse: collapse;
+    width: 50%;
+    color: black;
+    margin: 0 auto;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.Table3 {
+    border-collapse: collapse;
+    width: 50%;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 0px solid black;
+    padding: 50px;
+    background-color: #ffb03f;
+}
+
+tr {
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #ffb03f;
 }
